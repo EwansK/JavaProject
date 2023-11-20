@@ -9,5 +9,6 @@ package Back;
  * @author Totto
  */
 public class test {
+    private String test;
     
 }
