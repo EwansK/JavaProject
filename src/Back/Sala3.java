@@ -13,12 +13,12 @@ import Conexion.Conexion;
 public class Sala3 {
     private int id;
     private String s3_dia_hora;
-    private boolean disponibilidad;
+    private String disponibilidad;
 
     public Sala3() {
     }
 
-    public Sala3(int id, String s3_dia_hora, boolean disponibilidad) {
+    public Sala3(int id, String s3_dia_hora, String disponibilidad) {
         this.id = id;
         this.s3_dia_hora = s3_dia_hora;
         this.disponibilidad = disponibilidad;
@@ -40,11 +40,11 @@ public class Sala3 {
         this.s3_dia_hora = s3_dia_hora;
     }
 
-    public boolean isDisponibilidad() {
+    public String getDisponibilidad() {
         return disponibilidad;
     }
 
-    public void setDisponibilidad(boolean disponibilidad) {
+    public void setDisponibilidad(String disponibilidad) {
         this.disponibilidad = disponibilidad;
     }
 
@@ -52,6 +52,9 @@ public class Sala3 {
     public String toString() {
         return "Sala3{" + "id=" + id + ", s3_dia_hora=" + s3_dia_hora + ", disponibilidad=" + disponibilidad + '}';
     }
+
+    
+
     
     public void guardarhorario(){
         try {
