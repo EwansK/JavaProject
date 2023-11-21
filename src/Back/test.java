@@ -11,5 +11,10 @@ package Back;
 public class test {
     private String test;
     private String git;
+
+    public test() {
+    }
+    
+    
     
 }
